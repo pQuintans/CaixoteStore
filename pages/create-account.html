@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+
+  <link rel="stylesheet" type="text/css" href="../styles/global.css">
+  <link rel="stylesheet" type="text/css" href="../styles/forms.css">
+  <link rel="stylesheet" type="text/css" href="../styles/header.css">
+  
+  <link rel="stylesheet" type="text/css" href="../styles/pages/create-account.css">
+
+  <title>Caixote Store</title>
+</head>
+
+<body class="login">
+  <header class="header">
+    <a class="back-to-landing" href="./landing.html">
+      <img src="../images/icons/back.svg" alt="Voltar">
+    </a>
+  </header>
+  <div class="form">
+    <form class="register" name="register" method="post"  action="./login.html">
+      <legend>Cadastro</legend>
+      <div class="input">
+        <label for="name">Nome Completo</label>
+        <input type="text" class="input_text" id="nome" placeholder="Nome" />
+      </div>
+
+      <div class="input">
+        <label for="email">Email</label>
+        <input type="email" class="input_text" id="email" placeholder="Email" />
+      </div>
+
+      <div class="input-block">
+        <div class="input">
+          <label for="password">Senha</label>
+          <input type="password" class="input_text" id="password" placeholder="Senha">
+        </div>
+
+        <div class="input">
+          <label for="confirm-password">Confirmar Senha</label>
+          <input type="password" class="input_text" id="confirm-password" placeholder="Senha">
+        </div>
+      </div>
+      <div class="button-block">
+        <input class="clean" type="reset" onclick="alert('Você limpará os campos')" value="" />
+        <input class="send" type="submit" onclick="alert('Você será redirecionado para a página de login')" value=""/>
+      </div>
+      <form>
+  </div>
+</body>
+</html>

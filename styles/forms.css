@@ -1,0 +1,49 @@
+div.form {
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  width: 50em;
+  background: rgb(236, 236, 236);
+  color: black;
+  position:relative;
+  top: 3em;
+  padding: 2em;
+  border-radius: 10px;
+}
+  
+form {
+  width: 50em;
+}
+
+form legend {
+  position: 4px;
+  padding-bottom: 0.5em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+div.form label {
+  width:100%;
+  display: block;
+  padding: 1em;
+}
+
+div.form input {
+  border: 0;
+  border-radius: 0.5em;
+  padding: 1em 2em;
+  width:100%;
+  outline-color:rgb(143, 79, 6);
+}
+
+div.button-block input {
+  border: 0;
+  color: whitesmoke;
+  background: rgb(143, 79, 6);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+div.button-block input:hover {
+  background-color: rgb(189, 101, 0);
+}

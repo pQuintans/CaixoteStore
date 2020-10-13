@@ -1,0 +1,25 @@
+div.input-block {
+  display: grid;
+  gap: 1em;
+  padding-bottom: 1.5em;
+  grid-template-columns: 1fr 1fr ;
+}
+
+div.button-block {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.button-block .clean {
+  grid-column-start: 3 ;
+  background-image: url(../../images/icons/trash-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-block .send {
+  background-image: url(../../images/icons/log-in.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,8 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image:url("../images/background.webp");
+  background-size: 100%;
+  padding: 1.5em 4em;
+}

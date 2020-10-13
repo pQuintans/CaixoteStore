@@ -1,0 +1,21 @@
+.create-account a{
+  font-weight: bold;
+}
+
+div.button-block {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-block .send {
+  background-image: url(../../images/icons/log-in.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.button-block input {
+  width: 100px;
+  justify-self: end;
+}
