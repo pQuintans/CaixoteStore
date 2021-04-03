@@ -1,32 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+
   <link rel="stylesheet" href="../styles/global.css">
   <link rel="stylesheet" href="../styles/header.css">
-  
+
+
   <link rel="stylesheet" href="../styles/pages/products-page.css">
 
-  <title>Caixote Store</title> 
+  <title>Caixote Store</title>
 </head>
+
 <body>
   <header>
     <a class="back-to-landing" href="./products.html">
-      <img src="../images/icons/back.svg" alt="Voltar">
+      <img src="../images/icons/back.svg" alt="Voltar para o menu">
     </a>
+    <h1 class="store-name">Caixote Store</h1>
+    <form class="search">
+      <label class="icon-search" for="input-search"><img src="../images/icons/search.svg" alt="Pesquisa"></label>
+      <input class="input-search" type="search">
+    </form>
   </header>
-
-  <table border="5px">
-    <tr>
-      <th>Especificações</th>
-      <th>Produto</th>
-    </tr>
-    <tr>
-      <th></th>
-      <th><th>
-    </tr>
-  </table>
+  <div class="product-info">
+    <div class="product-general">
+      <img src="https://i.pinimg.com/originals/1e/6a/e3/1e6ae35eef01deb6ab4a384a8e6fa709.png" alt="AirPods">
+      <div class="product-info-text">
+        <h1 class="product-name">Air Pods</h1>
+        <p class="product-description">
+          Os novos AirPods combinam design inteligente, tecnologia inovadora e som de alta
+          qualidade. Eles usam toda a potência do novo chip H1, criado pela Apple exclusivamente para fones de ouvido, e
+          oferecem acesso à Siri só com a voz
+        </p>
+        <ul class="product-reference">
+          <li class="product-good-reference">Bem recomendado</li>
+          <li class="product-good-reference">Favoritos da loja</li>
+          <li class="product-bad-reference">Preço elevado</li>
+        </ul>
+        <div class="product-evaluation"> 
+          <meter min="0" max="5" value="4.2" low="3" high="4" optimum="5"></meter>
+        </div>
+      </div>
+    </div>
+    <div class="product-shop-informations">
+      <h2 class="product-price">R$929,99</h2>
+      <br>
+      <form>
+        <hr class="line">
+        <div class="cep-verify">
+          <p class="cep-verify-text">Verifique o frete:</p>
+          <div class="input-block">
+            <input class="cep-input" type="text" placeholder="Digite seu cep">
+            <input class="ok-button" type="submit" value="ok">
+          </div>
+        </div>
+        <hr class="line">
+      </form>
+      <div class="button-buy">
+        <a class="buy">
+          <img src="../images/icons/shopping-cart.svg" alt="Comprar">
+          <p class="buy-text">Comprar</p> 
+        </a>
+      </div>
+      <p>Este produto é vendido entregue por <b>Caixote Store</b></p>
+    </div>
+  </div>
+  <div class="technical-details">
+    <div class="technical-details-content">
+      <h2 class="product-name">Ficha Técnica:</h2>
+      <table class="table-of-details">
+        <tr>
+          <td>Ajuste na Orelha</td>
+          <td>Universal (sem ajuste)</td>
+        </tr>
+        <tr>
+          <td>Cancelamento de Ruído</td>
+          <td>Não</td>
+        </tr>
+        <tr>
+          <td>Chip</td>
+          <td>W1</td>
+        </tr>
+        <tr>
+          <td>E aí, Siri?</td>
+          <td>Acesso com dois toques.</td>
+        </tr>
+        <tr>
+          <td>Resistentes a suor e água</td>
+          <td>Não</td>
+        </tr>
+        <tr>
+          <td>Duração da bateria
+            Tempo de áudio/carga</td>
+          <td>Até cinco horas de som
+            Até duas horas de conversação</td>
+        </tr>
+        <tr>
+          <td>Duração da bateria
+            Adicional com estojo</td>
+          <td>Mais de 24 horas de som Até 11 horas de conversação.</td>
+        </tr>
+        <tr>
+          <td>Estojo sem fios</td>
+          <td>Não. Cabo Lightning/USB</td>
+        </tr>
+        <tr>
+          <td>Peso (cada um)</td>
+          <td>4 g (0,14 onça)</td>
+        </tr>
+        <tr>
+          <td>Peso (estojo)</td>
+          <td> 38 g (1,34 onça)</td>
+        </tr>
+        <tr>
+          <td>Tamanho (cada um)</td>
+          <td>16,5 x 18 x 40,5 mm</td>
+        </tr>
+        <tr>
+          <td>Tamanho (estojo)</td>
+          <td>44,3 x 21,3 x 53,5 mm</td>
+        </tr>
+        <tr>
+          <td>Bluetooth 5.0</td>
+          <td>Sim</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </body>
 </html>

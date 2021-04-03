@@ -1,3 +1,8 @@
+.back-to-landing {
+  z-index: 2;
+  position: fixed;
+}
+
 div.input-block {
   display: grid;
   gap: 1em;

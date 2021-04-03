@@ -6,3 +6,41 @@ header {
   background-size: 100%;
   padding: 1.5em 4em;
 }
+
+.store-name {
+  font-size: 1.7em;
+  color: whitesmoke;
+  text-shadow: -3px -1px 8px black;
+}
+
+form.search {
+  width: 25em;
+}
+
+input.input-search{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-radius: 1em;
+  border: 0;
+  outline: none;
+  text-emphasis: none;
+  z-index: 1;
+  line-height: 1.7em;
+  position: relative;
+  padding-left: 2em;
+}
+
+.icon-search{
+  display: block;
+  height: 0;
+  left: 0.2em;
+  position: relative;
+  z-index: 999;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}

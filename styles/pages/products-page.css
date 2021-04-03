@@ -1,5 +1,165 @@
-table{
-    background-color: whitesmoke;
-    border-spacing: 5px;
-    border-color: black;
+.product-info {
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: space-around;
+  padding: 1em 0 1em 0;
+}
+
+.product-general {
+  display: flex;
+  padding-right: 0;
+}
+
+.product-name {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.product-description {
+  width: 400px;
+  font-size: 1.055em;
+}
+
+.product-reference {
+  margin: 0.7em 0 0 1.6em;
+  font-size: 1em;
+}
+
+.product-good-reference {
+  list-style-image: url(../../images/icons/check.svg);
+}
+.product-bad-reference {
+  list-style-image: url(../../images/icons/x.svg);
+}
+
+.product-evaluation meter {
+  width: 15em;
+  height: 1.4em;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  position: relative;
+}
+
+.product-evaluation meter::before {
+  content: 'Opiniões:';
+  position: absolute;
+  top: -90%;
+}
+
+.product-evaluation meter::after {
+  content: '4,5/5';
+  position: absolute;
+  top: -90%;
+  right: 0;
+}
+
+.product-price {
+  margin-top: 1.2em;
+}
+
+.line{
+  border: 1px solid #D2691E;
+}
+
+.cep-verify {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2em 0 1.2em 0;
+}
+
+.cep-verify-text {
+  padding-bottom: 0.8em;
+}
+
+.input-block {
+  display: flex;
+  justify-content: center;
+}
+
+.cep-input {
+  border-radius: 0.6em;
+  outline: none;
+  border: 1px solid #D2691E;
+  width: 100%;
+  padding-left: 1em;
+  margin-right: 0.8em;
+}
+
+.ok-button {
+  outline: none;
+  background-color: white; 
+  color: #D2691E;
+  border: 0.15em solid #D2691E;
+  border-radius: 0.6em;
+  padding: 0.6em;
+  width: 4em;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: background-color 0.4s;
+}
+
+.ok-button:hover {
+  background-color: #e4e4e4;
+}
+
+.button-buy {
+  display: flex;
+  justify-content: center;
+}
+
+.buy {
+  display: flex;
+  height: 3em;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7em 0;
+  border-radius: 0.8em;
+  background-color: rgb(175, 107, 29);
+
+  transition: background-color 0.3s;
+
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: rgb(228, 121, 0);
+}
+
+.buy-text {
+  margin-left: 0.5em;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.technical-details {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.technical-details-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 2em;
+  padding-top: 2em;
+  width: 80%;
+  background-color: #f7f7f7;
+  padding-bottom: 2em;
+}
+
+.table-of-details {
+  margin-top: 50px;  
+  border-collapse: collapse;
+}
+
+.table-of-details td{
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+  width: 30em;
+  padding: 1em;
 }

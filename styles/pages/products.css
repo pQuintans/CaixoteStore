@@ -1,35 +1,3 @@
-.store-name {
-  font-size: 1.7em;
-  color: whitesmoke;
-  text-shadow: -3px -1px 8px black;
-}
-
-form.search {
-  width: 25em;
-}
-
-input.input-search{
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  border-radius: 1em;
-  border: 0;
-  outline: none;
-  text-emphasis: none;
-  z-index: 1;
-  line-height: 1.7em;
-  position: relative;
-  padding-left: 2em;
-}
-
-.icon-search{
-  display: block;
-  height: 0;
-  left: 0.2em;
-  position: relative;
-  z-index: 999;
-}
-
 nav {
   height: 3em;
   border: solid 1px black;
@@ -123,9 +91,28 @@ nav .anchor:hover {
 img.product-image{
   width: 15em ;
   height: 15em ;
+  object-fit: contain;
 }
 
-@media (max-width: 1330px) {
+.back-to-header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 5em;
+  bottom: 1em;
+  right: 0em;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.575);
+  color: black;
+}
+
+.back-to-header p {
+  text-align: center;
+}
+
+@media (max-width: 1370px) {
   nav {
     display: grid;
     row-gap: 0.5em;
@@ -138,6 +125,10 @@ img.product-image{
 
   .last-half-nav {
     margin-bottom: 0.3em;
+  }
+
+  .products-content {
+    column-gap: 2em;
   }
 }
 
